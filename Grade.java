@@ -18,11 +18,11 @@ public class Grade{
         String semester = sc.nextLine();
 
         for(int i=0; i<numberOfSubjects;i++){
-            System.out.println("ENTER THE SUBJECT"+(i+1) + ":");
+            System.out.println("ENTER THE SUBJECT "+(i+1) + ":");
             String subject = sc.nextLine();
             subjects.add(subject);
 
-            System.out.println("ENTER MARKS FOR"+subject+ ":");
+            System.out.println("ENTER MARKS FOR "+subject+ ":");
             int mark = sc.nextInt();
             marks.add(mark);
             sc.nextLine();
