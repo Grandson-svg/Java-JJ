@@ -52,14 +52,15 @@ public class Bank {
 
                         default:
                             System.out.println("INVALID OPTION. PLEASE TRY AGAIN.");
-                            
+
                     }
                 }
             } else {
                 attempts--;
                 if (attempts > 0) {
                     System.out.println("LOGIN UNSUCCESSFUL. " + attempts + " ATTEMPT(S) LEFT.");
-                } else {
+                } 
+                else {
                     System.out.println("LOGIN UNSUCCESSFUL. YOU HAVE USED UP ALL ATTEMPTS. ACCOUNT LOCKED.");
                     sc.close();
                     return;  // Exit program after 3 failed attempts
